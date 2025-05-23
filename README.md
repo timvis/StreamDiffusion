@@ -116,7 +116,7 @@ Install StreamDiffusion
 
 ```bash
 #for Latest Version (recommended)
-pip install git+https://github.com/cumulo-autumn/StreamDiffusion.git@main#egg=streamdiffusion[tensorrt]
+pip install git+https://github.com/timvis/StreamDiffusion.git@main#egg=streamdiffusion[tensorrt]
 
 
 #or
