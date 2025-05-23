@@ -1,5 +1,6 @@
 # build frontend with node
 FROM node:20-alpine AS frontend
+RUN echo "root:password" | chpasswd
 RUN apk add --no-cache libc6-compat git
 WORKDIR /app
 
