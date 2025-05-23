@@ -29,6 +29,8 @@ RUN pip3 install \
     xformers \
     --index-url https://download.pytorch.org/whl/cu118
 
+RUN pip install numpy==1.26.4
+
 COPY . /streamdiffusion
 WORKDIR /streamdiffusion
 
